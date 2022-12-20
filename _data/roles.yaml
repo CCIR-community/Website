@@ -1,0 +1,31 @@
+pi:
+  icon: fas fa-microscope
+  text: Principal Investigator
+
+postdoc:
+  icon: fas fa-glasses
+  text: Postdoctoral Researcher
+
+phd:
+  icon: fas fa-graduation-cap
+  text: Ph.D. Student
+
+master:
+  icon: fas fa-user-graduate
+  text: Master Student
+
+programmer:
+  icon: fas fa-code
+  text: Programmer
+
+engineer:
+  icon: fas fa-database
+  text: Engineer
+
+staff:
+  icon: far fa-clipboard
+  text: Staff
+
+pm:
+  icon: far fa-object-group
+  text: Project Manager

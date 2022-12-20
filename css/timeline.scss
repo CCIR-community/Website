@@ -1,0 +1,176 @@
+---
+---
+
+@import "palettes";
+@import "theme";
+@import "mixins";
+
+/*Timeline
+------------------------------------*/
+
+.timeline {
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.timeline > li{
+	position: relative;
+}
+
+.timeline:before {
+	top: 0;
+	bottom: 0;
+	left: 22%;
+	width: 4px;
+	content: '';
+	background: #f3f3f3;
+	position: absolute;
+	margin-left: -14px;
+}
+
+/* The date/time */
+.timeline > li .cbp_tmtime {
+
+	display: block;
+	position: absolute;
+	padding-right: 80px;
+}
+
+.timeline > li .cbp_tmtime span {
+	top: 9px;
+	display: block;
+	text-align: right;
+	position: relative;
+}
+
+.timeline > li .cbp_tmtime span:first-child {
+	color: #999;
+	font-size: 14px;
+	line-height: 0.9;
+}
+
+.timeline > li .cbp_tmtime span:last-child {
+	color: #585f69;
+	font-weight: normal;
+
+}
+
+/* Right content */
+.timeline > li .cbp_tmlabel {
+	color: #fff;
+	padding: 10px 20px 10px;
+	background: #f3f3f3;
+	line-height: 1.4;
+	clear: both;
+	position: relative;
+	border-radius: 5px;
+	margin: 0 0 40px 25%;
+}
+.timeline > li .cbp_tmlabel p{ margin-bottom: 0; color: #010203}
+/*
+.timeline > li .cbp_tmlabel img.big-thumb {
+	width: 100%;
+}
+*/
+
+.timeline > li .cbp_tmlabel li {
+	padding: 0;
+}
+
+/*
+.timeline > li .cbp_tmlabel img.small-thumb {
+	width: 111px;
+	height: auto;
+}
+*/
+
+.timeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	font-size: 21px;
+	padding: 0 0 5px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #ddd;
+}
+
+.timeline > li .cbp_tmlabel .text-left {
+	float: left;
+}
+
+/* The triangle */
+.timeline > li .cbp_tmlabel{	display: inline-block;}
+
+.timeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #f3f3f3;
+	border-width: 10px;
+	top: 9px;
+
+}
+
+/* The icons */
+.timeline > li .cbp_tmicon {
+	top: 13px;
+	left: 22%;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background: #72c02c;
+	margin: 0 0 0 -17px;
+	box-shadow: 0 0 0 4px #f3f3f3;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+
+	.timeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.timeline:before {
+		display: none;
+	}
+
+	.timeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.timeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.timeline > li .cbp_tmlabel {
+		padding: 1em;
+		font-weight: 400;
+		margin: 0 0 30px 0;
+	}
+
+	.timeline > li .cbp_tmlabel:after {
+		left: 20px;
+		top: -20px;
+		right: auto;
+		border-bottom-color: #f3f3f3;
+		border-right-color: transparent;
+	}
+
+	.timeline > li .cbp_tmicon {
+		left: auto;
+		float: right;
+		position: relative;
+		margin: -55px 5px 0 0px;
+	}	
+}
+

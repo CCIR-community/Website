@@ -1,0 +1,80 @@
+### basic settings
+
+# site properties and page defaults
+title: 中国中文信息学会信息检索专委会
+description: 中国中文信息学会信息检索专委会
+logo: images/logo.png
+# header: images/background.jpg
+# footer: images/background.jpg
+baseurl: ""
+
+# site social media and other links
+links:
+  github: THUIR
+  twitter: thuir_lab
+  wechat: thuir-wechat.png
+
+### advanced settings
+
+# automatic citations
+auto-cite:
+  plugins:
+    - name: sources
+      input:
+        - ../_data/sources-2019.yaml
+        - ../_data/sources-2020.yaml
+        - ../_data/sources-2021.yaml
+        - ../_data/sources-2022.yaml
+  output: ../_data/citations.yaml
+
+# default front matter parameters for markdown files
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_alumni
+  - scope:
+      type: "alumni"
+    values:
+      layout: alumni
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+# collections
+collections:
+  members:
+    output: true
+  alumni:
+    output: true
+
+# sass settings
+sass:
+  sass_dir: css
+
+# syntax highlighting
+highlighter: rouge
+
+# plugins
+plugins:
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-sitemap
+  # - jekyll-github-metadata
+  # - jekyll-avatar
+  # - jekyll-gist
+  # - jekyll-mentions
+  # - jekyll-relative-links
+  # - jemoji
+
+# jekyll theme
+theme: null

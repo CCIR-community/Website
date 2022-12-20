@@ -1,0 +1,54 @@
+{%- assign type = include.type | default: "link" -%}
+{%- assign type = site.data.links[type] -%}
+{%- assign link = include.link -%}
+
+{%- if type and link -%}
+
+  {%- assign icon = include.icon -%}
+  {%- if icon == "" -%}
+    {%- assign icon = type.icon -%}
+  {%- endif -%}
+
+  {%- assign text = include.text -%}
+  {%- if text == "" -%}
+    {%- assign text = type.text -%}
+  {%- endif -%}
+
+  {%- assign tooltip = include.tooltip -%}
+  {%- if tooltip == "" -%}
+    {%- assign tooltip = type.tooltip -%}
+  {%- endif -%}
+
+  {%- assign link = type.link | replace: "$LINK", link -%}
+
+  {%- assign flip = include.flip | default: false -%}
+
+  {%- assign dropdown = include.dropdown -%}
+  {%- assign children = include.children -%}
+  {%- if dropdown == "true" -%}
+    <div class="dropdown" href="{{ link | relative_url }}" >
+      <a class="link" href="{{ link | relative_url }}">
+        <span>{{ text }}</span>
+      </a>
+      {%- if children -%}
+        <div class="dropdown-content">
+          {%- for subpage in children -%}
+            {%- assign sublink = link | append: subpage -%}
+            <a href="{{ sublink | relative_url }}">{{ subpage }}</a>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div> 
+  {%- else -%}
+    <a class="link" href="{{ link | relative_url }}" {% if tooltip %}data-tooltip="{{ tooltip }}"{% endif %} {% if icon %}data-icon="true"{% endif %} {% if text %}data-text="true"{% endif %} {% if flip %}data-flip="true"{% endif %} data-style="{{ include.style | default: '' }}">
+      {%- if icon contains "fa-" -%}
+        <i class="{{ icon }} fa-lg {% if text == nil %}fa-fw{% endif %}"></i>
+      {%- elsif icon -%}
+        {% include {{ icon }} %}
+      {%- endif -%}
+      {%- if text -%}
+        <span>{{ text }}</span>
+      {%- endif -%}
+    </a>
+    {%- endif -%}
+{%- endif -%}
