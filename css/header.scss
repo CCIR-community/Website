@@ -73,12 +73,13 @@ header {
       opacity: 1;
     }
 
-    .dropdown {
-      float: left;
+    .mydropdown {
+      font-size: 1rem;
+      float: center;
       overflow: hidden;
     }
     
-    .dropdown .dropbtn {   
+    .mydropdown .dropbtn {   
       border: none;
       outline: none;
       color: white;
@@ -88,16 +89,16 @@ header {
       margin: 0;
     }
     
-    .dropdown-content {
+    .mydropdown-content {
       display: none;
       position: absolute;
       background-color: #f9f9f9;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       overflow: visible;
-      z-index: 1;
+      z-index: 99;
     }
     
-    .dropdown-content a {
+    .mydropdown-content a {
       float: none;
       color: black;
       padding: 12px 16px;
@@ -106,17 +107,17 @@ header {
       text-align: left;
     }
     
-    .dropdown:hover .dropbtn {
+    .mydropdown:hover .dropbtn {
       background-color: #555;
       color: white;
     }
     
-    .dropdown-content a:hover {
+    .mydropdown-content a:hover {
       background-color: #ddd;
       color: black;
     }
     
-    .dropdown:hover .dropdown-content {
+    .mydropdown:hover .mydropdown-content {
       display: block;
     }
 
@@ -129,14 +130,14 @@ header {
 
   // screen width where nav bar wraps to under logo
   // adjust based on width of your lab name and nav bar
-  @media (max-width: 1000px) {
+  @media (max-width: $page) {
     flex-direction: column;
     align-items: stretch;
   }
 
   // screen width where logo and nav bar go from horizontal to vertical
   // adjust based on width of your lab name and nav bar
-  @media (max-width: 700px) {
+  @media (max-width: $tablet) {
     .logo_row {
       flex-direction: column;
 
@@ -153,9 +154,9 @@ header {
       .link {
         width: 100%;
       }
-      .dropdown {float: none;}
-      .dropdown-content {position: relative;}
-      .dropdown .dropbtn {
+      .mydropdown {float: none;}
+      .mydropdown-content {position: relative;}
+      .mydropdown .dropbtn {
         display: block;
         width: 100%;
         text-align: left;

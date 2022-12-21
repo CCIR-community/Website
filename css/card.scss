@@ -5,7 +5,7 @@
 @import "theme";
 @import "mixins";
 
-.card {
+.mycard {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
@@ -23,7 +23,7 @@
     margin: 0;
   }
 
-  .card_image {
+  .mycard_image {
     flex-shrink: 0;
     width: var(--width);
     height: calc(2 / 3 * var(--width));
@@ -38,12 +38,12 @@
     }
   }
 
-  .card_title {
+  .mycard_title {
     font-family: $sans;
     font-weight: $medium;
   }
 
-  .card_subtitle {
+  .mycard_subtitle {
     margin-top: -15px;
     font-style: italic;
   }

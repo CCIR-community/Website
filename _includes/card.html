@@ -19,8 +19,8 @@
 {%- endif -%}
 
 {::nomarkdown}
-<span class="card" style="--width: {{ width }}px">
-  <{{ tag }} href="{{ include.link | relative_url }}" class="card_image">
+<span class="mycard" style="--width: {{ width }}px">
+  <{{ tag }} href="{{ include.link | relative_url }}" class="mycard_image">
     <img
       src="{{ include.image | relative_url }}"
       onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
@@ -30,13 +30,13 @@
   </{{ tag }}>
 
   {%- if include.title -%}
-    <{{ tag }} href="{{ include.link | relative_url }}" {% if include.tooltip %}data-tooltip="{{ include.tooltip }}"{% endif %} class="card_title">
+    <{{ tag }} href="{{ include.link | relative_url }}" {% if include.tooltip %}data-tooltip="{{ include.tooltip }}"{% endif %} class="mycard_title">
       {{- include.title -}}
     </{{ tag }}>
   {%- endif -%}
 
   {%- if include.subtitle -%}
-    <span class="card_subtitle">{{- include.subtitle -}}</span>
+    <span class="mycard_subtitle">{{- include.subtitle -}}</span>
   {%- endif -%}
 
   {%- if include.description -%}

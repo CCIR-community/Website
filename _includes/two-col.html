@@ -1,4 +1,9 @@
-<div class="two_col">
-  <div>{{ include.col1 | markdownify }}</div>
-  <div>{{ include.col2 | markdownify }}</div>
+{%- assign leftcolsize = include.left | default: "6" -%}
+{%- assign rightcolsize = include.right | default: "6" -%}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-{{ leftcolsize }}">{{ include.leftcol | markdownify }}</div>
+    <div class="col-md-{{ rightcolsize }}">{{ include.rightcol | markdownify }}</div>
+  </div>
 </div>

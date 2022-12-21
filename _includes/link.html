@@ -26,12 +26,12 @@
   {%- assign dropdown = include.dropdown -%}
   {%- assign children = include.children -%}
   {%- if dropdown == "true" -%}
-    <div class="dropdown" href="{{ link | relative_url }}" >
+    <div class="mydropdown" data-style="{{ include.style | default: '' }}">
       <a class="link" href="{{ link | relative_url }}">
         <span>{{ text }}</span>
       </a>
       {%- if children -%}
-        <div class="dropdown-content">
+        <div class="mydropdown-content">
           {%- for subpage in children -%}
             {%- assign sublink = link | append: subpage -%}
             <a href="{{ sublink | relative_url }}">{{ subpage }}</a>
