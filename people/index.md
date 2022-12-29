@@ -1,122 +1,45 @@
 ---
-title: People
+title: 专委成员
 nav:
   order: 1
-  tooltip: 团队成员
+  # tooltip: 团队成员
 ---
+{% capture c2 %}
 
-# <i class="fas fa-users"></i>Current 在校成员
-
-## Faculty 教师
+## 现任常委
 
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role: pi"
+  filters="role: commitee_current"
 %}
 
+
+{:center}
+## 历任常委
+
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role: engineer"
+  filters="role: commitee_former"
 %}
 
-{% include section.html %}
 
-## Ph.D. Students 博士生
+## 专委委员
 
 {%
   include list.html
   data="members"
-  component="portrait"
+  component="member"
   filters="role: phd"
 %}
 
-{% include section.html %}
+{% endcapture %}
 
-## Master Students 硕士生
+{% capture c1 %}
 
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: master"
-%}
+{% endcapture %}
 
-{% include section.html %}
-
-## PostDocs 博士后
-
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: postdoc"
-%}
-
-{% include section.html %}
-
-## Staff and Project Managers 工作人员
-
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: staff"
-%}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: pm"
-%}
-{:.center}
-
-{% include section.html %}
-
-# <i class="fas fa-users"></i>Alumni 毕业校友
-
-{%
-  include list_reverse.html
-  data="alumni"
-  component="portrait"
-%}
-<!-- 
-{%
-  include list.html
-  data="alumni"
-  component="portrait"
-  filters="role: pi"
-%}
-{%
-  include list.html
-  data="alumni"
-  component="portrait"
-  filters="role: phd"
-%}
-{%
-  include list.html
-  data="alumni"
-  component="portrait"
-  filters="role: master"
-%}
-{%
-  include list.html
-  data="alumni"
-  component="portrait"
-  filters="role: postdoc"
-%}
-{%
-  include list.html
-  data="alumni"
-  component="portrait"
-  filters="role: staff"
-%}
--->
-{:.center}
-
-{% include section.html %}
-
-Special thanks to [Jia Chen](https://xuanyuan14.github.io) and [Yan Fang](https://suffoquer-fang.github.io) for the initial construction of this page.
+{% include two-col.html leftcol=c1 rightcol=c2 left=3 right=9 %}

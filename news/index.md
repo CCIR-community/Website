@@ -1,7 +1,7 @@
 ---
-title: News
-#nav:
-#  order: 7
+title: 领域新闻
+nav:
+  order: 4
 #  tooltip: 新闻
 ---
 

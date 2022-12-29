@@ -1,8 +1,8 @@
 ---
-title: Patents
-nav:
-  order: 4
-  tooltip: 专利申报
+#title: Patents
+#nav:
+#  order: 4
+#  tooltip: 专利申报
 ---
 
 # <i class="fas fa-book"></i>Patents 专利

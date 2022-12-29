@@ -1,0 +1,88 @@
+- name: 刘奕群
+  image_url: http://www.thuir.cn/group/~YQLiu/YiqunLiu_files/profile_20190921.jpg
+  title: 主任
+  description: 清华大学计算机系教授
+  role: commitee_current
+  links:
+    home-page: http://www.thuir.cn/group/~YQLiu/
+    email: yiqunliu@tsinghua.edu.cn
+
+- name: 郭嘉峰
+  image_url: http://bigdatalab.ac.cn/rcpy/bssds/202203/W020220401514222710268.jpg
+  title: 副主任
+  description: 中国科学院计算技术研究所研究员
+  role: commitee_current
+  links:
+    home-page: http://www.bigdatalab.ac.cn/gjf/
+    email: guojiafeng@ict.ac.cn
+
+- name: 窦志成
+  image_url: http://playbigdata.ruc.edu.cn/dou/Images/zhicheng_dou_2021.jpg
+  title: 副主任
+  description: 人民大学高瓴人工智能学院教授
+  role: commitee_current
+  links:
+    home-page: http://playbigdata.ruc.edu.cn/dou/dou_cn.aspx
+    email: dou@ruc.edu.cn
+
+- name: 殷大伟
+  image_url: http://www.yindawei.com/wp-content/uploads/2012/12/myIconUK.png
+  title: 副主任
+  description: 百度资深技术总监
+  role: commitee_current
+  links:
+    home-page: https://www.yindawei.com/
+    email: yindawei@acm.org
+
+- name: 兰艳艳
+  # image_url: https://air.tsinghua.edu.cn/__local/6/AF/48/7719793351E489D5589DAA7AA25_75C376B4_2DD87.jpg
+  image: /images/members/YanyanLan.jpg
+  title: 秘书长
+  description: 清华大学智能产业研究院研究员
+  role: commitee_current
+  links:
+    home-page: https://air.tsinghua.edu.cn/info/1046/1200.htm
+    email: lanyanyan@air.tsinghua.edu.cn
+  
+- name: 白硕
+  image: /images/members/ShuoBai.jpg
+  title: 荣誉主任
+  description: 中国科学院计算技术研究所研究员
+  role: commitee_former
+  links:
+    home-page: http://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/200909/t20090917_2496582.html
+    email: bai@mail.cnnisc.gov.cn
+
+- name: 程学旗
+  image_url: http://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/200909/P020201010632959662298.jpg
+  title: 主任
+  description: 中国科学院计算技术研究所研究员
+  role: commitee_former
+  links:
+    home-page: http://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/200909/t20090917_2496598.html
+    email: cxq@ict.ac.cn
+
+- name: 文继荣
+  image: /images/members/JirongWen.jpg
+  title: 副主任
+  description: 人民大学高瓴人工智能学院教授
+  role: commitee_former
+
+- name: 刘铁岩
+  image_url: https://www.msra.cn/wp-content/uploads/2019/10/avatar_user_15_1570523674-360x360.jpg
+  title: 副主任
+  description: 微软杰出首席科学家
+  role: commitee_former
+  links:
+    home-page: https://www.msra.cn/zh-cn/people/tie-yan-liu
+
+
+
+- name: 王小川
+  image: /images/members/XiaochuanWang.jpg
+  title: 副主任
+  description: 搜狗公司创始人
+  role: commitee_former
+
+
+

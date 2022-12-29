@@ -13,9 +13,35 @@ header {
   gap: 20px;
   padding: 30px;
   color: $white;
-  background: $blue-800;
   box-shadow: $shadow;
+  position: relative;
   z-index: 99;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.08;
+    // filter: blur(5px);
+    z-index: -1;
+  }
+  
+  &[data-dark="false"] {
+    background: $gray-100;
+    color: $black;
+  }
+
+  &[data-dark="true"] {
+    background: $gray-900;
+    color: $white;
+  }
 
   & * {
     font-family: $sans;
@@ -40,7 +66,7 @@ header {
       line-height: $spacing - 0.3;
 
       .logo_title {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
 
       .logo_subtitle {
@@ -61,8 +87,8 @@ header {
     letter-spacing: 1px;
 
     .link {
-      margin: 0;
-      font-size: 1rem;
+      margin: 10;
+      font-size: 1.5rem;
     }
 
     &:hover .link {

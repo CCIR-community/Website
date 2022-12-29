@@ -6,33 +6,25 @@
 
 {%- assign emptyarray = "" | split: "," -%}
 
-{%- assign id = include.slug | default: include.id | default: "" -%}
-{%- assign members = site.members | concat: site.alumni | default: emptyarray -%} 
+{%- assign member = include -%}
 
-{%- assign member = nil -%}
-{%- for m in members -%}
-  {%- if m.slug == id -%}
-    {%- assign member = m -%}
-  {%- endif -%}
-{%- endfor -%}
-
-{%- assign url = member.url | default: "" -%}
+{%- assign url = member.links.home-page | default: "" -%}
 
 {::nomarkdown}
 <a {% if url %}href="{{ url | relative_url }}"{% endif %} class="portrait" style="--width: {{ width }}px">
 
   {%- assign placeholder = "images/placeholder.svg" | relative_url -%}
-
+  <!--
   {%- assign role = member.role | default: "" -%}
   {%- if role -%}
     {%- include role.html type=role -%}
   {%- endif -%}
-  
+  -->
   {%- assign name = member.name | default: "" -%}
-  {%- assign image = member.image | default: "" -%}
+  {%- assign image = member.image | default: member.image_url | default: "" -%}
   <span class="portrait_image">
     <img
-      src="{{ image | relative_url }}"
+      src="{{ image }}"
       onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
       loading="lazy"
       alt="{{ name | default: 'Member portrait' }}"
@@ -42,6 +34,13 @@
   {%- if name -%}
     <span class="portrait_name">
       {{ name }}
+    </span>
+  {%- endif -%}
+  
+  {%- assign title = member.title | default: "" -%}
+  {%- if title -%}
+    <span class="portrait_title">
+      {{ title }}
     </span>
   {%- endif -%}
 

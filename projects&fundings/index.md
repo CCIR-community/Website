@@ -1,11 +1,11 @@
 ---
 title: Projects&Funding
-nav:
-  order: 3
+#nav:
+  # order: 3
 #  tooltip: 项目与基金
-  children:
-    - news
-    - news2
+#  children:
+#    - news
+#    - news2
 ---
 
 # <i class="fas fa-chart-bar"></i>Projects & Funding 项目与基金

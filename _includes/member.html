@@ -1,0 +1,12 @@
+{%- if include.style == "small" -%}
+  {%- assign width = 100 -%}
+{%- else -%}
+  {%- assign width = 200 -%}
+{%- endif -%}
+{%- assign emptyarray = "" | split: "," -%}
+{%- assign member = include -%}
+{%- assign url = member.links.home-page | default: "" -%}
+{%- assign name = member.name | default: "" -%}
+{%- assign title = member.title | default: "" -%}
+{%- assign description = member.description | default: "" -%}
+| {{ name }} | {{ title }} | {{ description }} |
