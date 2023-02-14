@@ -46,5 +46,3 @@ nav:
 * 张永锋同学，微软学者（2015）、西贝尔学者（2015）、百度奖学金（2014）、IBM学者（2014）、谷歌奖学金（2012） -->
 
 {% include section.html %}
-
-Special thanks to [Jia Chen](https://xuanyuan14.github.io) and [Yan Fang](https://suffoquer-fang.github.io) for the initial construction of this page.

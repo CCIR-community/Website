@@ -27,6 +27,33 @@ nav:
 %}
 
 
+## 前沿工作组
+
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: group_frontier"
+%}
+
+## 宣传工作组
+
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: group_publicity"
+%}
+
+## 评测工作组
+
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: group_challenge"
+%}
+
 ## 专委委员
 
 {%

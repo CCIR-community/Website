@@ -25,6 +25,21 @@
     home-page: http://playbigdata.ruc.edu.cn/dou/dou_cn.aspx
     email: dou@ruc.edu.cn
 
+- name: 陈竹敏
+  image_url: https://ir.sdu.edu.cn/~zhuminchen/zhuminchen.jpg
+  title: 副主任
+  description: 山东大学计算机学院教授
+  role: commitee_current
+  links:
+    home-page: https://ir.sdu.edu.cn/~zhuminchen/
+    email: chenzhumin@sdu.edu.cn
+
+- name: 王仲远
+  image_url: https://static.geekbang.org/ck/5bc8273acdfde.png?imageView2/0/w/800
+  title: 副主任
+  description: 快手技术副总裁
+  role: commitee_current
+
 - name: 殷大伟
   image_url: http://www.yindawei.com/wp-content/uploads/2012/12/myIconUK.png
   title: 副主任
@@ -76,13 +91,55 @@
   links:
     home-page: https://www.msra.cn/zh-cn/people/tie-yan-liu
 
-
-
 - name: 王小川
   image: /images/members/XiaochuanWang.jpg
   title: 副主任
   description: 搜狗公司创始人
   role: commitee_former
 
+- name: 何向南
+  image_url: https://hexiangnan.github.io/files/xiangnan_profile_2018.png
+  title: 组长
+  description: 中国科学技术大学大数据学院教授
+  role: group_frontier
+  links:
+    home-page: https://hexiangnan.github.io
 
+- name: 张鹏
+  image_url: http://cic.tju.edu.cn/faculty/zhangpeng/images/peng.jpg
+  title: 组长
+  description: 天津大学计算机学院教授
+  role: group_frontier
+  links:
+    home-page: http://cic.tju.edu.cn/faculty/zhangpeng/index.html
+
+- name: 马为之
+  image_url: https://mawz12.github.io/images/weizhima.jpg
+  title: 组长
+  description: 清华大学智能产业研究院助理研究员
+  role: group_publicity
+  links:
+    home-page: https://mawz12.github.io
+
+- name: 白婷
+  image_url: https://tbbaby.github.io/images/ting_bai.jpg
+  title: 组长
+  description: 北京邮电大学计算机学院讲师
+  role: group_publicity
+  links:
+    home-page: https://tbbaby.github.io/baiting_chinese.html
+
+- name: 朱小飞
+  image_url: https://www.cqut.edu.cn/__local/4/00/94/6509561338B7DBD09E39E87ED32_58AA630C_DDF6.jpg
+  title: 组长
+  description: 重庆理工大学计算机科学与工程学院教授
+  role: group_challenge
+  links:
+    home-page: https://www.cqut.edu.cn/info/1037/1037.htm
+
+- name: 刘伟东
+  image: /images/user_icon.png
+  title: 组长
+  description: 中国移动通信研究院
+  role: group_challenge
 
