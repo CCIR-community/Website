@@ -1,7 +1,7 @@
 ---
 title: 资源链接
 nav:
-  order: 5
+  order: 6
   #tooltip: 论文发表
 ---
 

@@ -23,12 +23,21 @@
   {%- assign name = member.name | default: "" -%}
   {%- assign image = member.image | default: member.image_url | default: "" -%}
   <span class="portrait_image">
+    {%- if member.image -%}
+    <img
+      src="{{ site.baseurl }}{{ image }}"
+      onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
+      loading="lazy"
+      alt="{{ name | default: 'Member portrait' }}"
+    >
+    {%- else -%}
     <img
       src="{{ image }}"
       onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
       loading="lazy"
       alt="{{ name | default: 'Member portrait' }}"
     >
+    {%- endif -%}
   </span>
 
   {%- if name -%}
