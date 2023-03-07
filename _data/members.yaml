@@ -25,21 +25,6 @@
     home-page: http://playbigdata.ruc.edu.cn/dou/dou_cn.aspx
     email: dou@ruc.edu.cn
 
-- name: 陈竹敏
-  image_url: https://ir.sdu.edu.cn/~zhuminchen/zhuminchen.jpg
-  title: 副主任
-  description: 山东大学计算机学院教授
-  role: commitee_current
-  links:
-    home-page: https://ir.sdu.edu.cn/~zhuminchen/
-    email: chenzhumin@sdu.edu.cn
-
-- name: 王仲远
-  image_url: https://static.geekbang.org/ck/5bc8273acdfde.png?imageView2/0/w/800
-  title: 副主任
-  description: 快手技术副总裁
-  role: commitee_current
-
 - name: 殷大伟
   image_url: http://www.yindawei.com/wp-content/uploads/2012/12/myIconUK.png
   title: 副主任
@@ -58,6 +43,21 @@
   links:
     home-page: https://air.tsinghua.edu.cn/info/1046/1200.htm
     email: lanyanyan@air.tsinghua.edu.cn
+
+- name: 陈竹敏
+  image_url: https://ir.sdu.edu.cn/~zhuminchen/zhuminchen.jpg
+  title: 常务委员
+  description: 山东大学计算机学院教授
+  role: commitee_current
+  links:
+    home-page: https://ir.sdu.edu.cn/~zhuminchen/
+    email: chenzhumin@sdu.edu.cn
+
+- name: 王仲远
+  image_url: https://static.geekbang.org/ck/5bc8273acdfde.png?imageView2/0/w/800
+  title: 常务委员
+  description: 快手技术副总裁
+  role: commitee_current
   
 - name: 白硕
   image: /images/members/ShuoBai.jpg
@@ -142,4 +142,339 @@
   title: 组长
   description: 中国移动通信研究院
   role: group_challenge
+
+- name: 施水才
+  title: 委员
+  description: TRS
+  role: regular_member
+
+- name: 马少平
+  title: 委员
+  description: 清华
+  role: regular_member
+
+- name: 刘挺
+  title: 委员
+  description: 哈工大
+  role: regular_member
+
+- name: 蔡东风
+  title: 委员
+  description: 沈阳航空学院
+  role: regular_member
+
+- name: 黄萱菁
+  title: 委员
+  description: 复旦大学
+  role: regular_member
+
+- name: 李航
+  title: 委员
+  description: 华为诺亚方舟实验室
+  role: regular_member
+
+- name: 林鸿飞
+  title: 委员
+  description: 大连理工大学
+  role: regular_member
+
+- name: 孙斌
+  title: 委员
+  description: 北京大学
+  role: regular_member
+
+- name: 孙乐
+  title: 委员
+  description: 中科院软件所
+  role: regular_member
+
+- name: 王斌
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
+
+- name: 闫宏飞
+  title: 委员
+  description: 北京大学
+  role: regular_member
+
+- name: 姚天昉
+  title: 委员
+  description: 上海交大
+  role: regular_member
+
+- name: 赵军
+  title: 委员
+  description: 中科院自动化所
+  role: regular_member
+
+- name: 朱靖波
+  title: 委员
+  description: 东北大学
+  role: regular_member
+
+- name: 刘悦
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
+
+- name: 李茹
+  title: 委员
+  description: 山西大学
+  role: regular_member
+
+- name: 秦兵
+  title: 委员
+  description: 哈尔滨工业大学
+  role: regular_member
+
+- name: 王海峰
+  title: 委员
+  description: 百度
+  role: regular_member
+
+- name: 张敏
+  title: 委员
+  description: 清华大学
+  role: regular_member
+
+- name: 杜亚军
+  title: 委员
+  description: 西华大学
+  role: regular_member
+
+- name: 马军
+  title: 委员
+  description: 山东大学
+  role: regular_member
+
+- name: 茹立云
+  title: 委员
+  description: 北京搜狗科技发展有限公司
+  role: regular_member
+
+- name: 王洪俊
+  title: 委员
+  description: 北京 TRS 公司
+  role: regular_member
+
+- name: 王明文
+  title: 委员
+  description: 江西师范大学
+  role: regular_member
+
+- name: 王挺
+  title: 委员
+  description: 国防科学技术大学
+  role: regular_member
+
+- name: 易绵竹
+  title: 委员
+  description: 解放军外国语学院
+  role: regular_member
+
+- name: 余正涛
+  title: 委员
+  description: 昆明理工大学
+  role: regular_member
+
+- name: 董守斌
+  title: 委员
+  description: 华南理工大学
+  role: regular_member
+
+- name: 冯是聪
+  title: 委员
+  description: 北京思明软件系统有限公司
+  role: regular_member
+
+- name: 姬东鸿
+  title: 委员
+  description: 武汉大学
+  role: regular_member
+
+- name: 梁循
+  title: 委员
+  description: 中国人民大学
+  role: regular_member
+
+- name: 阮彤
+  title: 委员
+  description: 华东理工大学
+  role: regular_member
+
+- name: 宋大为
+  title: 委员
+  description: 天津大学
+  role: regular_member
+
+- name: 唐杰
+  title: 委员
+  description: 清华大学
+  role: regular_member
+
+- name: 王丽宏
+  title: 委员
+  description: 国家计算机网络与信息安全管理中心
+  role: regular_member
+
+- name: 王素格
+  title: 委员
+  description: 山西大学
+  role: regular_member
+
+- name: 肖桐
+  title: 委员
+  description: 东北大学
+  role: regular_member
+
+- name: 许洪波
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
+
+- name: 杨沐昀
+  title: 委员
+  description: 哈尔滨工业大学
+  role: regular_member
+
+- name: 杨志豪
+  title: 委员
+  description: 大连理工大学
+  role: regular_member
+
+- name: 张师超
+  title: 委员
+  description: 广西师范大学
+  role: regular_member
+
+- name: 张宇
+  title: 委员
+  description: 哈尔滨工业大学
+  role: regular_member
+
+- name: 章成志
+  title: 委员
+  description: 南京理工大学
+  role: regular_member
+
+- name: 薛贵荣
+  title: 委员
+  description: 阿里巴巴
+  role: regular_member
+
+- name: 洪宇
+  title: 委员
+  description: 苏州大学
+  role: regular_member
+
+- name: 张奇
+  title: 委员
+  description: 复旦大学
+  role: regular_member
+
+- name: 兰艳艳
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
+
+- name: 林原
+  title: 委员
+  description: 大连理工大学
+  role: regular_member
+
+- name: 朱建科
+  title: 委员
+  description: 浙江大学
+  role: regular_member
+
+- name: 万小军
+  title: 委员
+  description: 北京大学
+  role: regular_member
+
+- name: 李国良
+  title: 委员
+  description: 清华大学
+  role: regular_member
+
+- name: 李晨亮
+  title: 委员
+  description: 武汉大学
+  role: regular_member
+
+- name: 刘康
+  title: 委员
+  description: 中科院自动化所
+  role: regular_member
+
+- name: 沈华伟
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
+
+- name: 熊德意
+  title: 委员
+  description: 苏州大学
+  role: regular_member
+
+- name: 赵世奇
+  title: 委员
+  description: 百度公司
+  role: regular_member
+
+- name: 谭松波
+  title: 委员
+  description: 北京恒昌利通投资管理有限公司
+  role: regular_member
+
+- name: 廖祥文
+  title: 委员
+  description: 福州大学
+  role: regular_member
+
+- name: 徐蔚然
+  title: 委员
+  description: 北京邮电大学
+  role: regular_member
+
+- name: 窦志成
+  title: 委员
+  description: 人民大学
+  role: regular_member
+
+- name: 陈竹敏
+  title: 委员
+  description: 山东大学
+  role: regular_member
+
+- name: 左家莉
+  title: 委员
+  description: 江西师范大学
+  role: regular_member
+
+- name: 张伟男
+  title: 委员
+  description: 哈工大
+  role: regular_member
+
+- name: 徐君
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
+
+- name: 黄民烈
+  title: 委员
+  description: 清华大学
+  role: regular_member
+
+- name: 刘培玉
+  title: 委员
+  description: 山东师范大学
+  role: regular_member
+
+- name: 常毅
+  title: 委员
+  description: 华为公司
+  role: regular_member
 

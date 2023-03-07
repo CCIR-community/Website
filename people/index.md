@@ -17,7 +17,7 @@ nav:
 
 
 {:center}
-## 历任常委
+## 历届主任
 
 {%
   include list.html
@@ -60,12 +60,22 @@ nav:
   include list.html
   data="members"
   component="member"
-  filters="role: phd"
+  filters="role: regular_member"
 %}
 
 {% endcapture %}
 
 {% capture c1 %}
+<div class="sticky_sidebar">
+  <ul class="no-padding margin-left-10 organizers-type-list hidden-xs" id="sidebar-nav">
+    <li class=""><a href="#现任常委">现任常委</a></li>
+    <li class=""><a href="#历届主任">历届主任</a></li>
+    <li class=""><a href="#前沿工作组">前沿工作组</a></li>
+    <li class=""><a href="#宣传工作组">宣传工作组</a></li>
+    <li class=""><a href="#评测工作组">评测工作组</a></li>
+    <li class=""><a href="#专委委员">专委委员</a></li>
+  </ul>
+</div>
 
 {% endcapture %}
 

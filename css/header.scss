@@ -5,12 +5,16 @@
 @import "theme";
 @import "mixins";
 
+html {
+  scroll-padding-top: 150px; /* height of sticky header */
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: top;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   padding: 30px;
   color: $white;
   box-shadow: $shadow;
@@ -199,8 +203,8 @@ header {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
+.sticky + main {
+  padding-top: 105px;
 }
 
 .sidebar {
@@ -267,3 +271,7 @@ header {
 }
 
 
+.sticky_sidebar {
+  position: sticky;
+  top: 175px;
+}
