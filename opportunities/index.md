@@ -4,6 +4,7 @@ nav:
   order: 8
   children:
     - 正式委员
+    - 通讯委员
 ---
 
 # <i class="fas fa-envelope"></i>Contact 联系我们
