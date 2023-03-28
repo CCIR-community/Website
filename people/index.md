@@ -66,6 +66,9 @@ nav:
 {% endcapture %}
 
 {% capture c1 %}
+
+{% include portrait.html image="/images/CI_logo.png" link="http://www.cipsc.org.cn/" %}
+
 <div class="sticky_sidebar">
   <ul class="no-padding margin-left-10 organizers-type-list hidden-xs" id="sidebar-nav">
     <li class=""><a href="#现任常委">现任常委</a></li>

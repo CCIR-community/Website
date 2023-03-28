@@ -8,6 +8,8 @@ nav:
 ---
 {% capture c1 %}
 
+{% include portrait.html image="/images/CI_logo.png" link="http://www.cipsc.org.cn/" %}
+
 <div class="sticky_sidebar">
   <ul class="no-padding margin-left-10 organizers-type-list hidden-xs" id="sidebar-nav">
     <li class=""><a href="{{ "/opportunities/信息检索专委会委员申请表.doc" | relative_url }}">信息检索专委会委员申请表</a></li>
