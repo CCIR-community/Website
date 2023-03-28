@@ -175,6 +175,7 @@ header {
         text-align: center;
         align-items: center;
       }
+
     }
 
     .nav_row {
@@ -190,6 +191,18 @@ header {
         display: block;
         width: 100%;
         text-align: left;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .logo_row {
+      //flex-direction: column;
+      .logo_text {
+        
+        .logo_title {
+          font-size: 0rem;
+        }
       }
     }
   }
