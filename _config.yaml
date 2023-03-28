@@ -10,9 +10,6 @@ baseurl: "/Website/"
 
 # site social media and other links
 links:
-  github: THUIR
-  twitter: thuir_lab
-  wechat: thuir-wechat.png
 
 ### advanced settings
 

@@ -8,7 +8,8 @@
 
 {%- assign member = include -%}
 
-{%- assign url = member.links.home-page | default: "" -%}
+{%- assign link = member.link | default: "" -%}
+{%- assign url = member.links.home-page | default: link -%}
 
 {::nomarkdown}
 <a {% if url %}href="{{ url | relative_url }}"{% endif %} class="portrait" style="--width: {{ width }}px">
