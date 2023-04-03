@@ -2,47 +2,59 @@
 title: 学术活动
 nav:
   order: 3
-  # tooltip: 荣誉获奖
+  # tooltip: SIGIR CAll For Papers
 ---
 
-# <i class="fas fa-award"></i>Awards 荣誉获奖
+# <i class="fas fa-award"></i>SIGIR-AP 2023 First Call For Papers
 
-{% include search-info.html %}
+Details: http://www.sigir-ap.org/sigir-ap-2023/call-for-papers/
 
-## Honor 荣誉
+SIGIR-AP (Asia/Pacific) is a new regional IR conference whose scope is the same as that of SIGIR. It will be hybrid, so authors of accepted papers can either present their work in-person or remotely.
 
-<!-- * ACM Distinguished Members，刘奕群，2022
+The conference adopts double-blind, single-track reviewing, and allows submissions of papers that are commensurate with contribution size. There are two types of SIGIR-AP submissions: Regular submissions and SIGIR-Revise-and-Resubmit submissions.
 
-* "钱伟长中文信息处理科学技术奖"一等奖，刘奕群，王小川、张敏、许静芳、马少平、陈炜鹏、毛佳昕、王蟒、马为之，2020
+## Regular submissions:
 
-* IBM Global Faculty Award，张敏，2020 -->
+These are new, original contributions that have not been submitted elsewhere before. We also welcome Resource papers and Reproducibility papers. Resources papers consider test collections and labelled datasets, designs and protocols of evaluation tasks, and software tools and services for information access. Reproducibility papers repeat, reproduce, generalize, and reexamine prior work, for example analysing to what extent assumptions of the original work are valid, or identify error modes and unexpected conclusions; typically these papers involve a new team and a new experimental setup, that is, they go beyond replication.
+
+Page length: (A) Paper body + (B) references.
+
+(A) Paper body length should be 2-9 pages, and be commensurate with contribution size.  
+(B) No page limit for the references section.
+
+
+## SIGIR-Revise-and-Resubmit (SIGIR-RR) submissions:
+
+These are revised versions of either full or short papers that were not accepted at the immediately preceding SIGIR conference. (This option is not available for other SIGIR paper tracks, e.g., perspectives, resource, or reproducibility.) In addition to the revised paper, the authors must include in the submission file a text explaining the revision based on the SIGIR reviews, as well as the original SIGIR submission.
+
+Page length: (A) Paper body + (B) references + (C) explanation (with SIGIR paper ID) + (D) SIGIR submission
+
+(A) Paper body length should be 2-9 pages, and be commensurate with contribution size.  
+(B) No page limit for the references section.  
+(C) Explanation (1-3 pages, no style requirements): a SIGIR paper ID, plus a text that explain how the authors addressed the points raised by the SIGIR reviewers after the SIGIR rejection.  
+(D) SIGIR submission: please include the original anonymised SIGIR submission as is in the SIGIR-AP submission.
+
+## IMPORTANT DATES (Timezone: Anywhere on Earth)
+
+June 26, 2023			Abstract submissions due
+
+July 3, 2023			Paper submissions due
+
+September 10, 2023		Paper decision notifications
+
+September 26, 2023		Camera ready papers due
+
+November 26-29, 2023	SIGIR-AP conference (tutorial + 2-day conference + workshops)
+
+## PROGRAM CHAIRS
+
+Xuanjing Huang, Fudan University, P. R. China
+
+Tetsuya Sakai, Waseda University, Japan
+
+Justin Zobel, University of Melbourne, Australia
+
+sigirap2023pcchairs@easychair.org
 
 
 
-
-
-{% include list.html component="awards" data="awards" filters="group: honor" style="rich"%}
-
-{% include section.html %}
-
-## Awards 奖项
-
-{% include list.html component="awards" data="awards" filters="group: awards" style="rich" %}
-
-<!-- * 詹靖涛同学获得国际会议 WSDM2022 最佳论文奖
-* 陈冲同学获得2021年百度奖学金
-* 陈冲同学获得2021年字节跳动奖学金
-* 陈冲、吴之璟同学获得2021年微软学者提名
-* 卢泓宇同学获得2020年微软学者提名
-* 张帆同学获得国际会议 SIGIR2020 最佳论文提名奖
-* 储著敏同学获得国际会议 ICTIR2019 最佳短文提名奖
-* 刘梦旸同学获得国际会议 SIGIR2018 最佳短文提名奖
-* 张俊祺同学获得国际会议 CIKM2018 最佳论文奖
-* 李祥圣同学获得 AIRS2018 最佳论文奖、陈冲同学获得最佳论文提名奖
-* 张帆同学获得国际会议 SIGIR2017 最佳学生论文奖
-* 毛佳昕同学获得国际会议 ECIR2017 最佳博士生论坛论文奖
-* 姚婷同学获得国际会议 AIRS2011 最佳论文奖提名
-* 王超同学，SIGIR最佳论文提名
-* 张永锋同学，微软学者（2015）、西贝尔学者（2015）、百度奖学金（2014）、IBM学者（2014）、谷歌奖学金（2012） -->
-
-{% include section.html %}
