@@ -5,7 +5,7 @@ nav:
   # tooltip: 荣誉获奖
 ---
 
-# <i class="fas fa-award"></i>Awards 荣誉获奖
+# <i class="fas fa-award"></i>hello
 
 {% include search-info.html %}
 
@@ -43,6 +43,7 @@ nav:
 * 毛佳昕同学获得国际会议 ECIR2017 最佳博士生论坛论文奖
 * 姚婷同学获得国际会议 AIRS2011 最佳论文奖提名
 * 王超同学，SIGIR最佳论文提名
+
 * 张永锋同学，微软学者（2015）、西贝尔学者（2015）、百度奖学金（2014）、IBM学者（2014）、谷歌奖学金（2012） -->
 
 {% include section.html %}
