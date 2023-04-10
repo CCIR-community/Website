@@ -5,32 +5,19 @@ nav:
   # tooltip: 开源项目与数据
 ---
 
-# <i class="fas fa-code-branch"></i>Opensource 开源项目与数据
+{% capture c1 %}
 
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="Follow us on GitHub"
-  link="THUIR"
-  style="button"
-%}
-{:.center}
+{% include portrait.html image="/images/CI_logo.png" link="http://www.cipsc.org.cn/" %}
 
-{% include search-info.html %}
+{% include list_nav.html data="outcomes" %}
 
-{% include section.html %}
+{% endcapture %}
 
-## Toolkits
+{% capture c2 %}
 
-{% include list.html component="card" data="tools" filters="group: toolkit" style="large"%}
+# <i class="fas fa-feather-alt"></i>成果速递
+<p></p>
+{% include list_posts.html data="outcomes" component="post-snippet" %}
 
-{% include section.html %}
-
-## Datasets
-
-{% include list.html component="datasets" data="tools" filters="group: dataset" style="rich" %}
-
-{% include section.html %}
-
-Special thanks to [Shuqi Zhu](/lab-website-template/members/2_stu_2022_zhushuqi.html) for the initial construction of this page.
+{% endcapture %}
+{% include two-col.html leftcol=c1 rightcol=c2 left=3 right=9 %}

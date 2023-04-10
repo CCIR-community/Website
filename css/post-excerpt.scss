@@ -6,7 +6,7 @@
 @import "mixins";
 
 .post_excerpt {
-  margin: 20px 0;
+  margin: 20px 20px;
   @include trim-v-margins;
 
   & > *:first-child {
@@ -16,4 +16,6 @@
   & > div {
     justify-content: flex-start;
   }
+  //border: 1px solid #BFBFBF;
+  //box-shadow: 10px 10px 5px #aaaaaa;
 }

@@ -3,14 +3,14 @@ title: CCIR历届会议
 ---
 
 
-#CCIR历届会议
-<a href=https://ccir2022.cqut.edu.cn>第二十八届全国信息检索学术会议：CCIR'2022，重庆理工大学 </a>
+# CCIR历届会议
+[第二十八届全国信息检索学术会议：CCIR'2022，重庆理工大学](https://ccir2022.cqut.edu.cn)
 
-<a href=https://ccir2021.dlufl.edu.cn/index.html>第二十七届全国信息检索学术会议：CCIR’2021，大连理工大学、大连外国语大学 </a>
+[第二十七届全国信息检索学术会议：CCIR’2021，大连理工大学、大连外国语大学](https://ccir2021.dlufl.edu.cn/index.html)
 
-<a href=http://www.cvnis.net/ccir2020/index.html>第二十六届全国信息检索学术会议：CCIR’2020，西安电子科技大学 </a>
+[第二十六届全国信息检索学术会议：CCIR’2020，西安电子科技大学](http://www.cvnis.net/ccir2020/index.html)
 
-<a href=http://ir.fzu.edu.cn/ccir2019> 第二十五届全国信息检索学术会议：CCIR’2019，福州大学 </a>
+[第二十五届全国信息检索学术会议：CCIR’2019，福州大学](http://ir.fzu.edu.cn/ccir2019)
 
 第二十四届全国信息检索学术会议：CCIR’2018，广西师范大学
 
@@ -24,7 +24,7 @@ title: CCIR历届会议
 
 第十九届全国信息检索学术会议：CCIR’2013，山西大学
 
-##CCIR 会议系列
+## CCIR 会议系列
 第八届全国信息检索学术会议：CCIR’2012，江西师范大学
 
 第七届全国信息检索学术会议：CCIR’2011，山东大学
@@ -41,7 +41,7 @@ title: CCIR历届会议
 
 第一届全国信息检索与内容安全学术会议：NCIRCS’2003，复旦大学
 
-##SEWM 会议系列
+## SEWM 会议系列
 第十届全国搜索引擎和网上信息挖掘学术研讨会：SEWM2012，北京大学
 
 第九届全国搜索引擎和网上信息挖掘学术研讨会：SEWM2011，河北大学

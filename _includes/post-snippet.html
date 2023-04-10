@@ -1,18 +1,8 @@
 {% assign emptyarray = "" | split: "," %}
 
-{% assign id = include.slug | default: include.id | default: "" %}
-{% assign posts = site.posts | default: emptyarray %}
-
-{% assign post = nil %}
-{% for p in posts %}
-  {% if p.slug == id %}
-    {% assign post = p %}
-  {% endif %}
-{% endfor %}
-
 <div class="post_excerpt">
-  {% assign url = post.url | default: "" %}
-  {% assign title = post.title | default: "" %}
+  {% assign url = include.url | default: "" %}
+  {% assign title = include.title | default: "" %}
   <p style="text-align:left;">
     <a href="{{ url | relative_url }}">{{ title }}</a>
     <span style="float:right;white-space:nowrap;color: #9e9e9e;">
@@ -21,7 +11,7 @@
     </span>
   </p>
 
-  {% assign content = post.content | default: "" %}
+  {% assign content = include.content | default: "" %}
   <p>
     {{ content | strip_html | truncate: 150 | remove: "　　​​"}}
   </p>

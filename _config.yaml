@@ -36,14 +36,29 @@ defaults:
       type: "members"
     values:
       layout: member
-  # markdown files in /_alumni
-  - scope:
-      type: "alumni"
-    values:
-      layout: alumni
   # markdown files in /_posts
   - scope:
       type: "posts"
+    values:
+      layout: post
+  # markdown files in /_news
+  - scope:
+      type: "news"
+    values:
+      layout: post
+  # markdown files in /_academic
+  - scope:
+      type: "academic"
+    values:
+      layout: post
+  # markdown files in /_outcomes
+  - scope:
+      type: "outcomes"
+    values:
+      layout: post
+  # markdown files in /_cups
+  - scope:
+      type: "cups"
     values:
       layout: post
 
@@ -51,7 +66,13 @@ defaults:
 collections:
   members:
     output: true
-  alumni:
+  news:
+    output: true
+  academic:
+    output: true
+  outcomes:
+    output: true
+  cups:
     output: true
 
 # sass settings
