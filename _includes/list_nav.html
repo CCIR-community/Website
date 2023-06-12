@@ -25,10 +25,10 @@
   {%- endif -%}
 {%- endfor -%}
 
-{%- assign years = data | group_by_exp: "d", "d.date | date: '%Y'" | sort: "name" | reverse -%}
+{%- assign years = data | group_by_exp: "d", "d.date | date: '%Y'" | sort: "name" -%}
 
 <div>
-{%- for year in years -%}
+{%- for year in years reversed-%}
 
 {%- assign items = year.items -%}
 
@@ -37,7 +37,7 @@
   {%- assign items = items | sort: "date" | reverse -%}
 {%- endif -%}
 <ul class="no-padding margin-left-10 organizers-type-list hidden-xs" id="sidebar-nav">
-{%- for d in items -%}
+{%- for d in items reversed-%}
   {%- assign link = d.link | default: d.url -%}
   {%- assign style = d.style | default: include.style -%}
       <li class=""><a href="{{ d.url | relative_url }}">{{ d.title }}</a></li>
