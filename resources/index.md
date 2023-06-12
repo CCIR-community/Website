@@ -7,4 +7,4 @@ nav:
     - CCIR评测资源
 ---
 
-详情请见[CCIR历届会议](/Website/resources/CCIR历届会议)和[CCIR评测资源](/Website/resources/CCIR评测资源).
+详情请见[CCIR历届会议](/resources/CCIR历届会议)和[CCIR评测资源](/resources/CCIR评测资源).
