@@ -61,11 +61,7 @@ defaults:
       type: "cups"
     values:
       layout: post
-  # markdown files in /_conference
-  - scope:
-      type: "conference"
-    values:
-      layout: default
+
 
 # collections
 collections:
@@ -79,7 +75,7 @@ collections:
     output: true
   cups:
     output: true
-  conference:
+  CCIR2023:
     output: true
 
 # sass settings
