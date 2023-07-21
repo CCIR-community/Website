@@ -7,7 +7,7 @@ header: /images/banner-tsinghua-test.jpg
 
 {% capture c1 %}
 
-{% include conference_leftlist.html %}
+{% include conference_leftlist_CCIR2023.html %}
 
 {% endcapture %}
 

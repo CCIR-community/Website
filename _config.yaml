@@ -75,8 +75,6 @@ collections:
     output: true
   cups:
     output: true
-  CCIR2023:
-    output: true
 
 # sass settings
 sass:
