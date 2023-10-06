@@ -2,7 +2,7 @@
 title: AIIR2023
 nav:
   order: 11
-# header: /images/banner-tsinghua-test.jpg
+header: /images/banner-tsinghua-test.jpg
 ---
 
 {% capture c1 %}
