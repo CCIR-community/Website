@@ -1,7 +1,7 @@
 ---
 title: AIIR2023
 nav:
-  order: 11
+  order: 1
 header: /images/banner-tsinghua-test.jpg
 ---
 
