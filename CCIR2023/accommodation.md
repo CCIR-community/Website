@@ -17,8 +17,7 @@ header: /images/banner-tsinghua-test.jpg
 
 1. 住宿酒店
 
-   北京市西郊宾馆（北京市海淀区王庄路 18 号）
-   协议价： 标准间 480 元/晚（不含早）；大床房 460 元/晚（不含早），早餐 60/人。
+   1. 北京市西郊宾馆（北京市海淀区王庄路 18 号）：会议酒店，注册会议后 1-2 天将会收到会议酒店的预定二维码，可享受协议价预订（ 标准间 480 元/晚（不含早）；大床房 460 元/晚（不含早），早餐 60/人，可预订时确认）。
    <div style="text-align: left"><img src="./assets/标准间.png" alt="" style="height:200px;width:auto">  <img src="./assets/大床房.png" alt="" style="height:200px;width:auto"></div>
 
    下图中红色 1 标注位置即为住宿酒店。
@@ -26,7 +25,11 @@ header: /images/banner-tsinghua-test.jpg
    <div style="text-align: left"><img src="./assets/酒店位置.png" alt="" style="height:300px;width:auto">
    <p></p>
 
-   注：预定房间，需在会议注册页面扫描并填写回执表发送至邮箱ccir2023@126.com（含住宿信息），会务组为参会代表提前预留房间。
+   2. 北京市汉庭优佳酒店(北京五道口清华东门店)，距离约 500 米，需自行预订。<p></p>
+
+   3. 如家酒店(五道口地铁站店)，距离约 1000 米，需自行预订。<p></p>
+
+   4. 文津国际酒店，距离约 2000 米，需自行预订<p></p>
 
 2. 交通情况
 
