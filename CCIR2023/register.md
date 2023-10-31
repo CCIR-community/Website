@@ -28,6 +28,13 @@ header: /images/banner-tsinghua-test.jpg
 
 2023 年 11 月 26 日 讲习班（与 SIGIR-AP 联合举办）
 
+会议日程暂定如下：
+
+<div style="text-align: left"><img src="./assets/schedule1.png" alt="" style="height:700px;width:auto"></div>
+<div style="text-align: left"><img src="./assets/schedule2.png" alt="" style="height:700px;width:auto"></div>
+<div style="text-align: left"><img src="./assets/schedule3.png" alt="" style="height:700px;width:auto"></div>
+<div style="text-align: left"><img src="./assets/schedule4.png" alt="" style="height:700px;width:auto"></div>
+
 邀请函：即将更新
 
 **二、会议注册费**
