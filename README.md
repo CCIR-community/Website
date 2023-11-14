@@ -1,5 +1,11 @@
 ## Documentation
 
+run
+
+```bash
+bundle exec jekyll serve
+```
+
 [▶️ Revision Instruction](https://jw57xmsufn.feishu.cn/wiki/wikcn1wNCkb3CAjCXBhDYp087pC)
 
 [▶️ Get Started](https://github.com/greenelab/lab-website-template/wiki/Get-Started)
