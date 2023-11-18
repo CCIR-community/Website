@@ -22,5 +22,7 @@ header: /images/banner-tsinghua-test.jpg
 
 会议包含一系列学术活动，除传统的海内外知名学者的大会报告、会议论文报告、Poster 交流、评测活动外，还将组织青年学者论坛以及面向热点研究问题的前沿讲习班等。大会也将邀请部分相关国际期刊与会议(如 TOIS / SIGIR / WWW / WSDM/ CIKM )的作者交流论文。
 
+<a href="./assets/ccir_booklet.pdf">会议手册</a>
+
 {% endcapture %}
 {% include two-col.html leftcol=c1 rightcol=c2 left=3 right=9 %}
