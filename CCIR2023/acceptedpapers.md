@@ -214,7 +214,7 @@ title: 论文录用
 <p></p>
 <div style="font-weight: bold">基于动态邻居选择的知识图谱事实错误检测方法</div>
 <div>知识图谱是一种重要的知识表示方法和知识存储载体，其建模知识的准确程度会极大影响下游任务的效果。然而，由于知识图谱的构建和更新通常依赖大量网络数据和自动化方法，因此所建模和获取的知识内容难免存在各种事实错误。为了解决这个问题，我们提出了一种新知识图谱事实错误检测方法，该方法动态选择待检测事实的邻居节点，通过捕捉头尾实体之间的复杂关系来判断事实是否存在错误。具体来说，首先利用图结构信息来确定每个实体的潜在邻居。然后，根据实体的上下文信息动态地选择相关邻居，进而使用高效的图注意力网络编码节点的特性。最终通过计算节点的头尾实体表示的一致性，判断待检测事实是否存在错误。我们在多个公开的知识图谱数据集上进行了实验，结果表明我们的方法在错误检测方面表现优于现有的方法。</div>
-<div>Liang Gui (University of Chinese Academy of Sciences) and Shizhu He (University of Chinese Academy of Sciences)</div>
+<div>Liang Gui (University of Chinese Academy of Sciences) ,Shizhu He (University of Chinese Academy of Sciences), Yao Xu(University of Chinese Academy of Sciencec), Kang Liu(University of Chinese Academy of Science) and JunZhao(University of Chinese Academy of Science)</div>
 <p></p>
 <div style="font-weight: bold">基于二维增强融合机制的事件论元抽取</div>
 <div>针对现有的事件论元抽取研究中触发词和论元间缺少交互以及通道内部缺少交互的问题，提出基于二维增强融合机制的事件论元抽取模型。首先，为句子中的触发词打上带有事件类型的标识符，增强触发器和论元交互的同时引入了事件类型信息，并且单独利用 BERT 编码触发词再结合整句语义信息，用以强调句子中触发词的语义信息。其次我们将面向论元的标签合并到在实体识别领域中最先进的基于词-词关系预测的二维网格标记模型中以生成句子的平面化表示，最后在此基础上使用增强融合机制让网络重点关注词的某些特征并锐化事件论元位置的边缘。我们在 ACE05 数据集上进行了实验，实验结果表明本文方法相较其他的基于分类的事件论元抽取方法提升了 1.8%。</div>
