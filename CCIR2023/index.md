@@ -14,9 +14,10 @@ header: /images/banner-tsinghua-test.jpg
 {% capture c2 %}
 
 # <i class="fas fa-feather-alt"></i>第二十九届全国信息检索学术会议 (CCIR2023)
-
 <p></p>
 信息检索旨在满足人类在互联网上快速准确地获取信息与知识的需求，研究成果将支撑国家战略决策，推动互联网和人工智能领域的发展，提升整个社会的生产效率，并对社会生活各个领域产生重大影响。全国信息检索学术会议（CCIR）由中国中文信息学会（CIPS) 举办，一路伴随着中国互联网产业的成长，是信息检索领域的旗舰会议。
+
+<img src="./assets/kv2.jpeg" alt="CCIR2023" align="center">
 
 第二十九届全国信息检索学术会议（The 29th China Conference on Information Retrieval, CCIR 2023）将于 2023 年 11 月 24-26 日 在北京举行，此次会议由中国中文信息学会主办，由中国中文信息学会信息检索专委会、清华大学承办。本次会议与首届 ACM SIGIR-AP (Information Retrieval in the Asia Pacific) 会议联合举办。
 
