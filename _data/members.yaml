@@ -138,24 +138,24 @@
     home-page: https://www.cqut.edu.cn/info/1037/1037.htm
 
 - name: 刘伟东
-  image: /images/user_icon.png
+  image: /CCIR2023/assets/liuweidong.jpg
   title: 组长
   description: 中国移动通信研究院
   role: group_challenge
 
 - name: 施水才
   title: 委员
-  description: TRS
+  description: 拓尔思
   role: regular_member
 
 - name: 马少平
   title: 委员
-  description: 清华
+  description: 清华大学
   role: regular_member
 
 - name: 刘挺
   title: 委员
-  description: 哈工大
+  description: 哈尔滨工业大学
   role: regular_member
 
 - name: 蔡东风
@@ -185,12 +185,12 @@
 
 - name: 孙乐
   title: 委员
-  description: 中科院软件所
+  description: 中国科学院软件所
   role: regular_member
 
 - name: 王斌
   title: 委员
-  description: 中科院计算所
+  description: 小米
   role: regular_member
 
 - name: 闫宏飞
@@ -200,12 +200,12 @@
 
 - name: 姚天昉
   title: 委员
-  description: 上海交大
+  description: 上海交通大学
   role: regular_member
 
 - name: 赵军
   title: 委员
-  description: 中科院自动化所
+  description: 中国科学院自动化所
   role: regular_member
 
 - name: 朱靖波
@@ -215,7 +215,7 @@
 
 - name: 刘悦
   title: 委员
-  description: 中科院计算所
+  description: 中国科学院计算技术研究所
   role: regular_member
 
 - name: 李茹
@@ -330,7 +330,7 @@
 
 - name: 许洪波
   title: 委员
-  description: 中科院计算所
+  description: 中国科学院计算技术研究所
   role: regular_member
 
 - name: 杨沐昀
@@ -375,7 +375,7 @@
 
 - name: 兰艳艳
   title: 委员
-  description: 中科院计算所
+  description: 中国科学院计算技术研究所
   role: regular_member
 
 - name: 林原
@@ -405,12 +405,12 @@
 
 - name: 刘康
   title: 委员
-  description: 中科院自动化所
+  description: 中国科学院自动化所
   role: regular_member
 
 - name: 沈华伟
   title: 委员
-  description: 中科院计算所
+  description: 中国科学院计算技术研究所
   role: regular_member
 
 - name: 熊德意
@@ -460,7 +460,7 @@
 
 - name: 徐君
   title: 委员
-  description: 中科院计算所
+  description: 中国科学院计算技术研究所
   role: regular_member
 
 - name: 黄民烈
@@ -475,6 +475,120 @@
 
 - name: 常毅
   title: 委员
-  description: 华为公司
+  description: 吉林大学
   role: regular_member
 
+- name: 范意兴
+  title: 委员
+  description: 中国科学院计算技术研究所
+  role: regular_member
+
+- name: 刘慧婷
+  title: 委员
+  description: 安徽大学
+  role: regular_member
+
+- name: 吴书
+  title: 委员
+  description: 中国科学院自动化所
+  role: regular_member 
+
+- name: 毛先领
+  title: 委员
+  description: 北京理工大学
+  role: regular_member 
+
+- name: 陈晋鹏
+  title: 通讯委员
+  description: 北京邮电大学
+  role: correspondence_member
+
+- name: 高小燕
+  title: 通讯委员
+  description: 北京工业大学
+  role: correspondence_member
+
+- name: 郭磊
+  title: 通讯委员
+  description: 山东师范大学
+  role: correspondence_member
+
+- name: 洪鑫
+  title: 通讯委员
+  description: 清华大学
+  role: correspondence_member
+
+- name: 侯旻
+  title: 通讯委员
+  description: 合肥工业大学
+  role: correspondence_member
+
+- name: 李丹
+  title: 通讯委员（海外）
+  description: 爱思唯尔
+  role: correspondence_member
+
+- name: 李辉
+  title: 通讯委员
+  description: 厦门大学
+  role: correspondence_member
+
+- name: 廉涛
+  title: 通讯委员
+  description: 太原理工大学
+  role: correspondence_member
+
+- name: 刘海峰
+  title: 通讯委员
+  description: 南京师范大学
+  role: correspondence_member
+
+- name: 刘正皓
+  title: 通讯委员
+  description: 东北大学
+  role: correspondence_member
+
+- name: 刘政
+  title: 通讯委员
+  description: 智源人工智能研究院
+  role: correspondence_member
+
+- name: 裴家欢
+  title: 通讯委员（海外）
+  description: 荷兰国家研究所
+  role: correspondence_member
+
+- name: 王翔
+  title: 通讯委员
+  description: 中国科学技术大学
+  role: correspondence_member
+
+- name: 吴之璟
+  title: 通讯委员
+  description: 北京理工大学
+  role: correspondence_member
+
+- name: 谢若冰
+  title: 通讯委员
+  description: 腾讯
+  role: correspondence_member
+
+- name: 俞蔚捷
+  title: 通讯委员
+  description: 对外经贸大学
+  role: correspondence_member
+
+- name: 张孟奇
+  title: 通讯委员
+  description: 山东大学
+  role: correspondence_member
+
+- name: 朱余韬
+  title: 通讯委员
+  description: 中国人民大学
+  role: correspondence_member
+
+- name: 邹立新
+  title: 通讯委员
+  description: 武汉大学
+  role: correspondence_member
