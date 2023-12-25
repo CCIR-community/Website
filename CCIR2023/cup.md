@@ -1,8 +1,8 @@
 ---
-title: 
+title: CCIR 2023 挑战杯
 header: /images/banner-tsinghua-test.jpg
 ---
-CCIR 2023 挑战杯
+
 {% capture c1 %}
 
 {% include conference_leftlist_CCIR2023.html %}
