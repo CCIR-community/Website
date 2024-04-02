@@ -1,7 +1,5 @@
 ---
 title: CCIR2023
-nav:
-  order: 10
 header: /images/banner-tsinghua-test.jpg
 ---
 
