@@ -592,3 +592,8 @@
   title: 通讯委员
   description: 武汉大学
   role: correspondence_member
+
+- name: 庞亮
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
