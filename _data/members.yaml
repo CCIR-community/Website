@@ -150,7 +150,7 @@
 
 - name: 马少平
   title: 委员
-  description: 清华
+  description: 清华大学
   role: regular_member
 
 - name: 刘挺
@@ -478,3 +478,7 @@
   description: 华为公司
   role: regular_member
 
+- name: 庞亮
+  title: 委员
+  description: 中科院计算所
+  role: regular_member
