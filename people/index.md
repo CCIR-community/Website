@@ -63,6 +63,15 @@ nav:
   filters="role: regular_member"
 %}
 
+## 通讯委员
+
+{%
+  include list.html
+  data="members"
+  component="member"
+  filters="role: correspondence_member"
+%}
+
 {% endcapture %}
 
 {% capture c1 %}
@@ -77,6 +86,7 @@ nav:
     <li class=""><a href="#宣传工作组">宣传工作组</a></li>
     <li class=""><a href="#评测工作组">评测工作组</a></li>
     <li class=""><a href="#专委委员">专委委员</a></li>
+	<li class=""><a href="#通讯委员">通讯委员</a></li>
   </ul>
 </div>
 
