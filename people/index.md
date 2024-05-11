@@ -4,9 +4,10 @@ nav:
   order: 2
   # tooltip: 团队成员
 ---
+
 {% capture c2 %}
 
-## 现任常委
+## 现任常务委员
 
 {%
   include list.html
@@ -15,8 +16,8 @@ nav:
   filters="role: commitee_current"
 %}
 
-
 {:center}
+
 ## 历届主任
 
 {%
@@ -25,7 +26,6 @@ nav:
   component="portrait"
   filters="role: commitee_former"
 %}
-
 
 ## 前沿工作组
 
@@ -80,7 +80,7 @@ nav:
 
 <div class="sticky_sidebar">
   <ul class="no-padding margin-left-10 organizers-type-list hidden-xs" id="sidebar-nav">
-    <li class=""><a href="#现任常委">现任常委</a></li>
+    <li class=""><a href="#现任常务委员">现任常务委员</a></li>
     <li class=""><a href="#历届主任">历届主任</a></li>
     <li class=""><a href="#前沿工作组">前沿工作组</a></li>
     <li class=""><a href="#宣传工作组">宣传工作组</a></li>
