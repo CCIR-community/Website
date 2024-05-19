@@ -53,8 +53,8 @@ nav:
 
 ## 申请流程
 
-1. 申请人需填写的[委员申请表]({{ "/opportunities/信息检索专委会委员申请表.doc" | relative_url }})、[通讯委员申请表]({{ "/opportunities/信息检索专委会通讯委员申请表.doc" | relative_url }})或[学生委员申请表]({{ "/opportunities/信息检索专委会学生委员申请表.doc" | relative_url }})，并请于 2023 年 10 月 10 日之前发送到申请邮箱admin@cips-ir.org.cn，不接受截止日期之后的委员申请；
-2. 专委会主任会将对申请材料进行整理审核，将于 2023 年 10 月 30 日之前告知申请者是否受理其通讯/正式委员申请；其中，学生委员的申请将由主任会审议是否通过，并经由官方邮箱给出反馈；
+1. 申请人需填写的委员申请表(于申请页面左侧边栏中下载，下同)、通讯委员申请表或学生委员申请表，并请填写完毕之后通过报名信息收集问卷（<a href="https://bqyl1x9muk3.feishu.cn/share/base/form/shrcn6kPtvyocUSpM2azrqTH9rd">委员</a>、<a href="https://bqyl1x9muk3.feishu.cn/share/base/form/shrcnMRK2xFnIxTFI74UrW9iukb">通讯委员</a>、<a href="https://bqyl1x9muk3.feishu.cn/share/base/form/shrcnEGthoJWMcW80Jsis8245Fj">学生委员</a>）提交个人信息及申请表文件。
+2. 专委会主任会将对申请材料进行整理审核，将于当年 CCIR 会前告知申请者是否受理其通讯/正式委员申请；其中，学生委员的申请将由主任会审议是否通过，并经由官方邮箱给出反馈；
 3. 本年度的专委会全体会议上将进行投票，票数过半则将当选为通讯委员或正式委员，原则上所有申请人应当线下参加当年的专委会会议并做自我介绍。
 
 ## 权利与义务
