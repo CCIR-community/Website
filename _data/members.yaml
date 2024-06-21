@@ -58,7 +58,7 @@
   title: 常务委员
   description: 快手技术副总裁
   role: commitee_current
-  
+
 - name: 白硕
   image: /images/members/ShuoBai.jpg
   title: 荣誉主任
@@ -122,9 +122,9 @@
     home-page: https://mawz12.github.io
 
 - name: 白婷
-  image_url: https://tbbaby.github.io/images/ting_bai.jpg
+  image_url: https://tbbaby.github.io/images/tingbai_new.jpg
   title: 组长
-  description: 北京邮电大学计算机学院讲师
+  description: 北京邮电大学计算机学院副教授
   role: group_publicity
   links:
     home-page: https://tbbaby.github.io/baiting_chinese.html
@@ -491,12 +491,12 @@
 - name: 吴书
   title: 委员
   description: 中国科学院自动化所
-  role: regular_member 
+  role: regular_member
 
 - name: 毛先领
   title: 委员
   description: 北京理工大学
-  role: regular_member 
+  role: regular_member
 
 - name: 陈晋鹏
   title: 通讯委员
