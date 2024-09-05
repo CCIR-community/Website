@@ -24,3 +24,5 @@ nav:
 
 {% endcapture %}
 {% include two-col.html leftcol=c1 rightcol=c2 left=3 right=9 %}
+
+白金赞助： <img src="./assets/白金赞助-腾讯微信.png" style="width: 300px;"> 金牌赞助：<img src="./assets/金牌赞助-华为.jpg" style="width: 80px;"> 银牌赞助：<img src="./assets/银牌赞助-百度.png" style="width: 150px;"> 铜牌赞助：<img src="./assets/铜牌赞助-原子回声.png" style="width: 100px;"> <img src="./assets/铜牌赞助-八友科技.png" style="width: 100px;">
