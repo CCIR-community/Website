@@ -43,10 +43,6 @@ title: 会议注册
 
 注 3：本次会议食宿费用自理。
 
-请各位参会嘉宾在注册网站上完成注册后，加入 CCIR 2024 参会微信群:
-
-<img src="./assets/wechat_group.jpg" style="width:400px;">
-
 请各位参会嘉宾在注册网站上完成注册后，填写纪念衫尺码[统计问卷](https://bqyl1x9muk3.feishu.cn/share/base/form/shrcn5VoOD8RwNpjDvmqKUji4t4)，尺码表如下：
 
 <img src="./assets/size_chart.png" style="width:700px;">
