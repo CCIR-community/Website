@@ -19,6 +19,8 @@ title: 会议注册
 
 会议网站：http://www.cips-ir.org.cn/CCIR2024/
 
+邀请函：<a href="./assets/invitation.pdf">点击下载</a>
+
 现邀请大家注册参加 CCIR 2024，一起分享、共同探讨，努力促进我国中文信息检索领域的技术与产业的创新与发展。
 
 **一、会议安排**
