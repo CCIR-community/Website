@@ -1,8 +1,8 @@
 ---
-title: 学术活动
-nav:
-  order: 3
-  # tooltip: SIGIR CAll For Papers
+# title: 学术活动
+# nav:
+#   order: 3
+# tooltip: SIGIR CAll For Papers
 ---
 
 {% capture c1 %}
@@ -16,6 +16,7 @@ nav:
 {% capture c2 %}
 
 # <i class="fas fa-feather-alt"></i>学术活动
+
 <p></p>
 {% include list_posts.html data="academic" component="post-snippet" %}
 
