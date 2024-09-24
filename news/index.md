@@ -1,7 +1,7 @@
 ---
 title: 领域新闻
-nav:
-  order: 5
+# nav:
+#   order: 5
 #  tooltip: 新闻
 ---
 
@@ -16,6 +16,7 @@ nav:
 {% capture c2 %}
 
 # <i class="fas fa-feather-alt"></i>领域新闻
+
 <p></p>
 {% include list_posts.html data="news" component="post-snippet" %}
 

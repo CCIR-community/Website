@@ -1,8 +1,8 @@
 ---
 title: 成果速递
-nav:
-  order: 4
-  # tooltip: 开源项目与数据
+# nav:
+#   order: 4
+# tooltip: 开源项目与数据
 ---
 
 {% capture c1 %}
@@ -16,6 +16,7 @@ nav:
 {% capture c2 %}
 
 # <i class="fas fa-feather-alt"></i>成果速递
+
 <p></p>
 {% include list_posts.html data="outcomes" component="post-snippet" %}
 
