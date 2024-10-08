@@ -34,6 +34,21 @@
     home-page: https://www.yindawei.com/
     email: yindawei@acm.org
 
+- name: 陈竹敏
+  image_url: https://ir.sdu.edu.cn/~zhuminchen/zhuminchen.jpg
+  title: 副主任
+  description: 山东大学计算机学院教授
+  role: commitee_current
+  links:
+    home-page: https://ir.sdu.edu.cn/~zhuminchen/
+    email: chenzhumin@sdu.edu.cn
+
+- name: 王仲远
+  image_url: https://static.geekbang.org/ck/5bc8273acdfde.png?imageView2/0/w/800
+  title: 副主任
+  description: 快手技术副总裁
+  role: commitee_current
+
 - name: 兰艳艳
   # image_url: https://air.tsinghua.edu.cn/__local/6/AF/48/7719793351E489D5589DAA7AA25_75C376B4_2DD87.jpg
   image: /images/members/YanyanLan.jpg
@@ -43,21 +58,6 @@
   links:
     home-page: https://air.tsinghua.edu.cn/info/1046/1200.htm
     email: lanyanyan@air.tsinghua.edu.cn
-
-- name: 陈竹敏
-  image_url: https://ir.sdu.edu.cn/~zhuminchen/zhuminchen.jpg
-  title: 常务委员
-  description: 山东大学计算机学院教授
-  role: commitee_current
-  links:
-    home-page: https://ir.sdu.edu.cn/~zhuminchen/
-    email: chenzhumin@sdu.edu.cn
-
-- name: 王仲远
-  image_url: https://static.geekbang.org/ck/5bc8273acdfde.png?imageView2/0/w/800
-  title: 常务委员
-  description: 快手技术副总裁
-  role: commitee_current
 
 - name: 白硕
   image: /images/members/ShuoBai.jpg
