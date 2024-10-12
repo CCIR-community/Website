@@ -22,6 +22,8 @@ nav:
 
 会议包含一系列学术活动，除传统的海内外知名学者的大会报告、会议论文报告、Poster 交流、评测活动外，还将组织青年学者论坛以及面向热点研究问题的前沿讲习班等。大会也将邀请部分相关国际期刊与会议(如 TOIS / SIGIR / WWW / WSDM/ CIKM )的作者交流论文。
 
+会议手册<a href="./assets/CCIR2024_booklet_v14.pdf">下载</a>
+
 <p></p>
 
 {% endcapture %}
