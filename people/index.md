@@ -7,7 +7,7 @@ nav:
 
 {% capture c2 %}
 
-## 现任常务委员
+## 现任主任委员会
 
 {%
   include list.html
