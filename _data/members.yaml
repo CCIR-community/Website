@@ -49,6 +49,54 @@
   description: 快手技术副总裁
   role: commitee_current
 
+- name: 范意兴
+  image_url: /images/members/fanyixing.png
+  title: 常务委员
+  description: 中国科学院计算技术研究所副研究员
+  role: commitee_current
+
+- name: 任昭春
+  image_url: /images/members/renzhaochun.png
+  title: 常务委员
+  description: 山东大学计算机学院教授
+  role: commitee_current
+
+- name: 庞亮
+  image_url: /images/members/pangliang.png
+  title: 常务委员
+  description: 中国科学院计算技术研究所副研究员
+  role: commitee_current
+
+- name: 张敏
+  image_url: /images/members/zhangmin.png
+  title: 常务委员
+  description: 清华大学计算机系教授
+  role: commitee_current
+
+- name: 张鹏
+  image_url: /images/members/zhangpeng.png
+  title: 常务委员
+  description: 天津大学教授
+  role: commitee_current
+
+- name: 曹朝
+  image_url: /images/members/caochao.png
+  title: 常务委员
+  description: 天津大学教授
+  role: commitee_current
+
+- name: 李晨亮
+  image_url: /images/members/lichenliang.png
+  title: 常务委员
+  description: 武汉大学国家网络安全学院教授
+  role: commitee_current
+
+- name: 聂礼强
+  image_url: /images/members/nieliqiang.png
+  title: 常务委员
+  description: 哈尔滨工业大学（深圳）教授
+  role: commitee_current
+
 - name: 兰艳艳
   # image_url: https://air.tsinghua.edu.cn/__local/6/AF/48/7719793351E489D5589DAA7AA25_75C376B4_2DD87.jpg
   image: /images/members/YanyanLan.jpg
