@@ -83,14 +83,14 @@ title: 会议征文
 
 投稿到 CCIR 2025 的稿件必须是未公开发表过的，并且不能同时被投稿到其他会议和期刊的中英文论文。
 
-中文论文格式要求参照中文信息学报（论文模板）。[中文论文模板链接](https://jcip.cipsc.org.cn/CN/column/column5.shtml)
+中文论文格式要求参照中文信息学报（论文模板）。[中文论文模板链接](http://jcip.cipsc.org.cn/CN/column/column5.shtml)
 英文论文格式要求参照 Springer 的论文模板，长度为 12 页。录用论文将由 Springer LNCS 或 LNAI 出版，EI 索引。[英文论文模板链接](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
 
 愿景与观点的论文，论文长度 2 页及以上，用于与会者在会议期间的交流，在信息检索专委会公众号等渠道推送，不会被推荐到期刊发表。其他被 CCIR 2025 录用的论文将以论文摘要集的形式发放给与会者。
 
 ### **投稿方式：**
 
-登录 [投稿网站](https://easychair.org/my/conference?conf=ccir2025) 提交
+登录 [投稿网站](https://easychair.org/my/conference?conf=ccir2025%20) 提交
 
 ### **重要日期：**
 
