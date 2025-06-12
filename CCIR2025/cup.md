@@ -51,7 +51,7 @@ title: CCIR 2025 法律知识检索与生成 大赛
 
 ## 四、评测数据下载链接
 
-(https://github.com/CSHaitao/LexRAG)[https://github.com/CSHaitao/LexRAG]
+[https://github.com/CSHaitao/LexRAG](https://github.com/CSHaitao/LexRAG)
 
 <!-- DONE -->
 
