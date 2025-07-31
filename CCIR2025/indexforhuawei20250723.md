@@ -1,7 +1,5 @@
 ---
-title: CCIR2025
-nav:
-  order: 12
+
 ---
 
 {% capture c1 %}
