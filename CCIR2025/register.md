@@ -51,6 +51,12 @@ title: 会议注册
 1. 注册链接内有酒店预定及信息收集，组委会不单独提供酒店选项。
 2. 参会代表亦可参见会议官网的住宿交通页面，自主选择预定会议地点附近的酒店。
 
+交通方式如下：
+
+<img src="./assets/transport1.PNG" style="width:800px;">
+
+<img src="./assets/transport2.PNG" style="width:800px;">
+
 **四、联系方式**
 
 <!-- TODO -->
