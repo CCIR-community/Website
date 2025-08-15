@@ -21,6 +21,10 @@ nav:
 <img src="./assets/agenda.PNG" style="width: 800px;">
 <p></p>
 
+### 会议手册
+
+<a href="./assets/ccir25_booklet_v3.pdf"> 点击下载会议手册 </a>
+
 白金赞助： <img src="./assets/白金赞助-小红书.png" style="width: 121px;">金牌赞助：<img src="./assets/金牌赞助-华为.jpg" style="width: 80px;"> 银牌赞助：<img src="./assets/银牌赞助-百度.png" style="width: 150px;"> 铜牌赞助：<img src="./assets/铜牌赞助-八友科技.png" style="width: 100px;">
 {% endcapture %}
 

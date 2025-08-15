@@ -57,7 +57,7 @@
 - name: 陈竹敏
   image_url: https://ir.sdu.edu.cn/~zhuminchen/zhuminchen.jpg
   title: 副主任
-  description: 山东大学计算机学院教授
+  description: 山东大学人工智能学院副院长
   role: commitee_current
   links:
     home-page: https://ir.sdu.edu.cn/~zhuminchen/
@@ -71,7 +71,7 @@
 - name: 王仲远
   image_url: https://static.geekbang.org/ck/5bc8273acdfde.png?imageView2/0/w/800
   title: 副主任
-  description: 快手技术副总裁
+  description: 北京智源人工智能研究院院长
   role: commitee_current
 
 - name: 王仲远
@@ -230,7 +230,7 @@
     home-page: https://mawz12.github.io
 
 - name: 白婷
-  image_url: https://tbbaby.github.io/images/tingbai_new.jpg
+  image_url: https://teacher.bupt.edu.cn/_resources/group1/M00/00/02/CgM3mWYo_tKAF0SDAAR_dcEqbKc752.jpg
   title: 组长
   description: 北京邮电大学计算机学院副教授
   role: group_publicity
