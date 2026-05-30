@@ -110,7 +110,7 @@ title: 会议征文
 
 - **中文论文格式要求**：参照中文信息学报（论文模板）
   
-  - [中文论文模板链接](http://jcip.cipsc.org.cn/CN/column/column5.shtml)
+  - [中文论文模板链接](http://jcip.cipsc.org.cn/news/exportNewFile?id=183)
 
 - **英文论文格式要求**：参照 Springer 的论文模板，长度为 12 页
   
