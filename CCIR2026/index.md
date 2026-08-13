@@ -25,7 +25,7 @@ nav:
 
 ### 会议手册
 
-<a href="./assets/CCIR2026会议手册.pdf"> 点击下载会议手册 </a>
+<a href="./assets/ccir2026_booklet.pdf"> 点击下载会议手册 </a>
 
 <div style="display:flex; justify-content:center; align-items:flex-end; gap:40px; flex-wrap:wrap;">
   <div style="text-align:center; width:250px;">
