@@ -1,15 +1,14 @@
-<!-- third party scripts -->
-<script src="https://unpkg.com/@popperjs/core@2" defer></script>
-<script src="https://unpkg.com/tippy.js@6" defer></script>
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
-  defer
-></script>
-<script src="https://gcore.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<!-- third party scripts (local) -->
+<script src="{{ '/js/vendor/popper.min.js' | relative_url }}" defer></script>
+<script src="{{ '/js/vendor/tippy.min.js' | relative_url }}" defer></script>
+<script src="{{ '/js/vendor/mark.min.js' | relative_url }}" defer></script>
+<script src="{{ '/js/vendor/bootstrap.min.js' | relative_url }}" defer></script>
 
 <!-- site-wide javascript scripts -->
 {% for file in site.static_files %}
   {%- if file.path contains "/js" -%}
-    <script src="{{ file.path | relative_url }}" defer></script>
+    {%- unless file.path contains "/js/vendor/" -%}
+      <script src="{{ file.path | relative_url }}" defer></script>
+    {%- endunless -%}
   {% endif -%}
 {% endfor %}
